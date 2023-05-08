@@ -2,6 +2,6 @@
 
 {% module "footer", "site" %}
     {% for link in links %}
-        {% button link.link, link.text, "text-link" %}
+        {% button link.link, link.text, "text-link", true %}
     {% endfor %}
 {% endmodule %}
