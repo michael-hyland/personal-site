@@ -1,0 +1,70 @@
+{
+    "head": {
+        "title": "Michael Hyland | Web Development & Graphic Design",
+        "favicon": "✌️",
+        "description": "Oh hey, another blog. Is this really worth your time? Probably not -- yet here I am. Take it or leave it homie.",
+        "url": "https://github.com/michael-hyland"
+    },
+    "header": {
+        "home": {
+            "text": "Michael Hyland",
+            "link": "/"
+        },
+        "contact": {
+            "text": "Contact",
+            "link": "mailto:mcjhyland@gmail.com"
+        }
+    },
+    "sections": [
+        {
+            "id": "hero",
+            "title": "I make super awesome websites",
+            "body": "I specialize in creating custom websites with a user-focused approach to ensure ease of use, visual ecstacy, and manipulative conversions",
+            "button": {
+                "text": "Let's get to work",
+                "link": "#contact"
+            }
+        },
+        {
+            "id": "portfolio",
+            "title": "A vulgar display of miserable failures",
+            "body": "I've got sites built with Shopify, I've got sites built with WordPress, I've got some fun vanilla projects as well... lots to gaze at and judge",
+            "button": {
+                "text": "View all projects",
+                "link": "#contact"
+            }
+        },
+        {
+            "id": "blog",
+            "title": "Oh great, another worthless dev blog",
+            "body": "I write about the process a lot. This is sorta my library of knowledge. I come back here often to save myself time because all this coding nonsense gets out of hand quickly.",
+            "button": {
+                "text": "Visit the blog archive",
+                "link": "#contact"
+            }
+        },
+        {
+            "id": "contact",
+            "title": "Drop me a line",
+            "body": "Let's build something cool! I can't help with anything. At the very least I can give you some pointers and steer you in the right direction. What's the crux?",
+            "button": {
+                "text": "Hit me up",
+                "link": "mailto:mcjhyland@gmail.com"
+            }
+        }
+    ],
+    "footer": [
+      {
+         "text": "GitHub",
+         "link": "https://github.com/michael-hyland"
+      },
+      {
+         "text": "CodePen",
+         "link": "https://codepen.io"
+      },
+      {
+         "text": "Twitter",
+         "link": "https://twitter.com"
+      }
+    ]
+}

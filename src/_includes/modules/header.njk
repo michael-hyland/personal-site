@@ -1,0 +1,8 @@
+{% set home = data.header.home %}
+{% set contact = data.header.contact %}
+
+{% module "header", "site"%}
+    {% button home.link, home.text, "wordmark"%}
+
+    {% button contact.link, contact.text, "text-link" %}
+{%endmodule%}
