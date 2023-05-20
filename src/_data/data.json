@@ -2,8 +2,8 @@
     "head": {
         "title": "Michael Hyland | Web Development & Graphic Design",
         "favicon": "✌️",
-        "description": "Oh hey, another blog. Is this really worth your time? Probably not -- yet here I am. Take it or leave it homie.",
-        "url": "https://github.com/michael-hyland"
+        "description": "I make super awesome websites. 'Nuff said.",
+        "url": "https://michaelhyland.dev"
     },
     "header": {
         "home": {
@@ -12,7 +12,7 @@
         },
         "contact": {
             "text": "Contact",
-            "link": "mailto:michael@michaelhyland.dev"
+            "link": "mailto:hello@michaelhyland.dev"
         }
     },
     "sections": [
