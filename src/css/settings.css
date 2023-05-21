@@ -16,15 +16,3 @@ html {
     background: var(--ink);
 
 }
-
-
-@media (prefers-color-scheme: dark) {
-    html {
-        --ink: #ECE4D5;
-        --paper: #242424;
-    }
-
-    picture {
-        filter: brightness(85%);
-    }
-}

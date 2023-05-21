@@ -1,9 +1,9 @@
 module.exports = function (eleventyConfig) {
     // Modify later so the CSS is actually an .njk file with the permalink "style.css". Update link in <head> accordingly.
-    eleventyConfig.addPassthroughCopy("./src/css/");
+    eleventyConfig.addPassthroughCopy("./src/css/style.css");
     eleventyConfig.addPassthroughCopy("./src/fonts/");
     eleventyConfig.addPassthroughCopy("./src/script.js");
-
+    
     // Short Codes
     eleventyConfig.addShortcode("button", function (link, text, className, external = false) {
         let target = "";
@@ -31,3 +31,4 @@ module.exports = function (eleventyConfig) {
         },
     };
 };
+

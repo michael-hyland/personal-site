@@ -5,13 +5,3 @@
 hr, .site-header nav {
     display: none;
 }
-
-@media only screen and (min-width: 600px) {
-    hr, .site-header nav {
-        display: block;
-    }
-
-    .site-header {
-        background-color: var(--paper);
-    }
-}

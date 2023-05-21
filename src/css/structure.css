@@ -22,10 +22,3 @@ section > [class*="content"] {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-@media only screen and (min-width: 800px) {
-    section > [class*="content"] {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-}

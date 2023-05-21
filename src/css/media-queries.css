@@ -1,0 +1,39 @@
+@media only screen and (min-width: 500px) {
+    .hero-section__content .text-content {
+        align-items: flex-start;
+    }
+
+    .hero-section .text-content {
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* TYPOGRAPHY */
+    .title, .subtitle {
+        color: var(--ink);
+    }
+
+    /* HEADER */
+
+    .site-header {
+        background-color: var(--paper);
+    }
+
+    hr, .site-header nav {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    /* SETTINGS */
+    section > [class*="content"] {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    /* TYPOGRAPHY */
+    h1 {
+        font-size: 48px;
+    }
+}
