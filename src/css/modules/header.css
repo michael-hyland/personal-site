@@ -1,4 +1,8 @@
-.site-header__content {
-    /* display: flex;
-    justify-content: space-between; */
+.site-header {
+    background-color: var(--ink);
 }
+
+.site-header__content :is(.title, .subtitle) {
+    color: var(--paper);
+}
+

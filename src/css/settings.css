@@ -32,6 +32,7 @@ html {
     --ink: #242424;
     --paper: #ECE4D5;
     --color: #CE4E25;
+    --gray: #88847D;
 }
 
 @media (prefers-color-scheme: dark) {
