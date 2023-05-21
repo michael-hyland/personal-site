@@ -114,9 +114,20 @@ h1 {
     color: var(--ink);
 }
 
+
 h1 a {
     color: var(--color);
     display: inline-block;
+}
+
+h2 {
+    font-family: var(--lora);
+    font-size: var(--l-text);
+    color: var(--ink);
+    font-weight: 700;
+    line-height: 1.5;
+
+    max-width: 500px;
 }
 
 .body {

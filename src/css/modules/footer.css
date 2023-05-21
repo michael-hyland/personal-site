@@ -1,4 +1,12 @@
 .site-footer__content {
-    display: flex;
-    gap: var(--spacing-3);
+    /* display: flex;
+    gap: var(--spacing-3); */
+
+    padding: 50px 0;
+
+
+}
+
+.site-footer {
+    background-color: var(--color);
 }

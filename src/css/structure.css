@@ -20,10 +20,3 @@ body main {
     margin-inline: auto;
 }
 
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    gap: calc(var(--spacing) * 3);
-    align-items: flex-start;
-}
