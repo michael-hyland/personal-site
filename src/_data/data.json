@@ -2,8 +2,9 @@
     "head": {
         "title": "Michael Hyland | Web Development & Graphic Design",
         "favicon": "✌️",
-        "description": "I make super awesome websites. 'Nuff said.",
-        "url": "https://michaelhyland.dev"
+        "description": "I'm a web developer and graphic designer that specializes in making custom Shopify and WordPress websites.",
+        "url": "https://michaelhyland.dev",
+        "image": ""
     },
     "header": {
         "home": {

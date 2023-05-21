@@ -2,7 +2,27 @@
 {% set contact = data.header.contact %}
 
 {% module "header", "site"%}
-    {% button home.link, home.text, "wordmark"%}
+    <a href="/" class="wordmark">
+        <span class="title">Michael Hyland</span>
+        <spa class="subtitle">Web Development + Graphic Design</span>
+    </a>
 
-    {% button contact.link, contact.text, "text-link" %}
+    <hr>
+
+    <nav class="site-menu">
+        <ul class="link-list">
+            <li class="link">
+                <a href="#">Projects</a>
+            </li>
+
+            <li class="link">
+                <a href="#">Blog</a>
+            </li>
+
+            <li class="link">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
 {%endmodule%}

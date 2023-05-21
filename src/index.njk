@@ -4,10 +4,12 @@ layout: base.njk
 
 ---
 
-{% for section in data.sections %}
+{# {% for section in data.sections %}
     {% module "section", section.id %}
         <h1 class="title">{{ section.title }}</h1>
         <p class="body">{{ section.body }}</p>
         {% button section.button.link, section.button.text, "btn primary-btn" %}
     {% endmodule %}
-{% endfor %}
+{% endfor %} #}
+
+{% include "modules/sections/hero.njk" %}

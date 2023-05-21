@@ -1,8 +1,7 @@
 hr {
-    margin: 0;
     width: 100%;
-    max-width: calc(var(--spacing) * 8);
-    height: 2px;
-    background-color: var(--gray);
+    height: 0.5px;
+    background-color: var(--ink);
     border: none;
+    margin-top: 15px;
 }

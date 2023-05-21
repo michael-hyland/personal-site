@@ -17,6 +17,21 @@ html {
     --module-border: 2px solid var(--gray);
     
     background-color: var(--paper);
+
+    /* NEW STYLES */
+
+    --lora: "Lora", serif;
+    --roboto: "Roboto", sans-serif;
+
+    --xl-text: 32px;
+    --l-text: 20px;
+    --m-text: 16px;
+    --s-text: 14px;
+    --xs-text: 12px;
+
+    --ink: #242424;
+    --paper: #ECE4D5;
+    --color: #CE4E25;
 }
 
 @media (prefers-color-scheme: dark) {
