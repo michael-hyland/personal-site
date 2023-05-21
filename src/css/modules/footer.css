@@ -1,17 +1,9 @@
-.site-footer__content {
-    /* display: flex;
-    gap: var(--spacing-3); */
-
-    padding-top: 50px;
-
-
-}
-
 .site-footer {
-    background-color: var(--color);
+    background-color: var(--ink);
 }
 
-.site-footer .site-menu .link a {
-    color: var(--paper);
+.site-footer__content {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 

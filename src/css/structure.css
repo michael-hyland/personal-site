@@ -2,12 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-
     background-color: var(--paper);
-    /* padding: 10px; */
 }
 
 body main {
@@ -21,3 +18,14 @@ body main {
     padding: 20px;
 }
 
+section > [class*="content"] {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 800px) {
+    section > [class*="content"] {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}

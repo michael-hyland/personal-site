@@ -1,4 +1,15 @@
-.hero-section__content {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.hero-section__content .text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media only screen and (min-width: 500px) {
+    .hero-section__content .text-content {
+        align-items: flex-start;
+    }
+
+    .hero-section .text-content {
+        gap: 50px;
+    }
 }

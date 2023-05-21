@@ -12,7 +12,6 @@ html {
 picture {
     display: block;
     overflow: hidden;
-    /* width: 100%; */
 }
 
 picture img {
@@ -39,7 +38,7 @@ a span {
 
 p a {
     display: inline;
-    color: var(--gray);
+    color: var(--color);
     text-decoration: underline;
 }
 
