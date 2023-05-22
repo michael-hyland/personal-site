@@ -1,9 +1,12 @@
+{% set hero = data.sections.hero %}
+{% set jumboText = hero.text %}
+{% set link = hero.button.link %}
+{% set text = hero.button.text %}
+
 {% module "section", "hero" %}
-
 <div class="text-content">
-    <h1>I make super awesome websites with <a href="#">Shopify</a> and <a href="#">WordPress</a>. Sometimes I <a href="#">write</a> about it.</h1>
+    <h1>{{ jumboText | safe }}</h1>
 
-    {% button "mailto:hello@michaelhyland.dev", "Let's get to work", "primary-btn" %}
+    {% button link, text, "primary-btn" %}
 </div>
-
 {% endmodule %}

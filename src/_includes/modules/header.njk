@@ -1,28 +1,20 @@
-{% set home = data.header.home %}
-{% set contact = data.header.contact %}
+{% set header = data.header %}   
 
-{% module "header", "site"%}
-    <a href="/" class="wordmark">
-        <span class="title">Michael Hyland</span>
-        <span class="subtitle">Web Development + Graphic Design</span>
+{% module "header", "site"%} 
+    <a href="{{ header.home.link }}" class="wordmark">
+        <span class="title">{{ header.home.title }}</span>
+        <span class="subtitle">{{ header.home.subtitle }}</span>
     </a>
 
     <hr>
 
-    <nav class="site-menu">
-        <ul class="link-list">
+    <nav class="site-menu"> 
+        <ul class="link-list">  
+        {% for link in header.siteMenu %}
             <li class="link">
-                <a href="#">Projects</a>
+                <a href="{{ link.link }}">{{ link.text }}</a>
             </li>
-
-            <li class="link">
-                <a href="#">Blog</a>
-            </li>
-
-            <li class="link">
-                <a href="#">Contact</a>
-            </li>
+    {% endfor %}  
         </ul>
     </nav>
-
 {%endmodule%}

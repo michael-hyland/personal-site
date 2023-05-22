@@ -64,7 +64,7 @@
 */
 
 .wordmark {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     gap: 10px;
 }
@@ -95,6 +95,7 @@ h1 {
     letter-spacing: 0.02em;
     width: 100%;
     max-width: 30ch;
+    /* white-space: pre; */
 }
 
 h1 a {

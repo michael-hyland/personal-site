@@ -1,10 +1,46 @@
 @media (prefers-color-scheme: dark) {
     html {
-        --ink: #ECE4D5;
+        --ink: #ece4d5;
         --paper: #242424;
     }
 
     picture {
         filter: brightness(85%);
+    }
+
+    /* TYPOGRAPHY */
+    .wordmark :is(.title, .subtitle) {
+        color: var(--ink);
+    }
+
+    /* BUTTONS */
+    .primary-btn span {
+        color: var(--ink);
+    }
+
+    .link-list .link a {
+        color: var(--ink);
+    }
+
+    .site-header .link-list a {
+        color: var(--color);
+    }
+
+    .site-menu .link-list .link a::before {
+        color: var(--ink);
+    }
+
+    .site-header .link-list .link a::before {
+        color: var(--color);
+    }
+
+    /* HEADER */
+    .site-header {
+        background-color: var(--paper);
+    }
+    
+    /* FOOTER */
+    .site-footer {
+        background-color: var(--color);
     }
 }
