@@ -1,0 +1,31 @@
+{% set projects = data.sections.projects %}
+{% set id = projects.id %}
+{% set projectList = projects.projectList %}
+
+{% module "section", id %}
+<h2 class="section-title">{{ id }}</h2>
+
+<hr> 
+
+<ul class="project-card-list">
+    {% for project in projectList %}
+    <li class="project-card">
+        <h3 class="project-card-title">{{ project.title }}</h3>
+
+        <p class="project-card-description">{{ project.description }}</p>
+        
+        <ul class="project-link-list">
+        {% for tag in project.tags %}
+            <li class="project-link">
+                {% button tag.link,  tag.title, "link" %}
+            </li>
+            {% if loop.last === false %}
+            <span class="divider">/</span>
+            {% endif %}
+        {% endfor %}
+        </ul>
+        {% button project.link, "Read the case study", "secondary-btn" %}
+    </li> 
+    {% endfor %}
+</ul>
+{% endmodule %}

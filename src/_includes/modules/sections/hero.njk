@@ -1,12 +1,17 @@
 {% set hero = data.sections.hero %}
+{% set id = hero.id %}
 {% set jumboText = hero.text %}
-{% set link = hero.button.link %}
-{% set text = hero.button.text %}
+{% set link = hero.button.link %} 
+{% set text = hero.button.text %}    
 
-{% module "section", "hero" %}
+{% module "section", id %}
 <div class="text-content">
     <h1>{{ jumboText | safe }}</h1>
 
     {% button link, text, "primary-btn" %}
 </div>
-{% endmodule %}
+
+<picture class="hero-image">
+    <img src="images/computer.png" alt="3d vector of retro desktop computer">
+</picture>
+{% endmodule %}   

@@ -7,6 +7,16 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+body {
+    cursor:default;
+}
+
+body *::selection {
+    background-color: var(--color);
+    color: var(--ink);
 }
 
 picture {

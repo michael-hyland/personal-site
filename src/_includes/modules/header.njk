@@ -14,6 +14,9 @@
             <li class="link">
                 <a href="{{ link.link }}">{{ link.text }}</a>
             </li>
+            {% if loop.last === false %}
+                <span class="divider">/</span>
+            {% endif %}
     {% endfor %}  
         </ul>
     </nav>

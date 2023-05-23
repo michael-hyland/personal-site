@@ -1,7 +1,0 @@
-.site-header {
-    background-color: var(--ink);
-}
-
-hr, .site-header nav {
-    display: none;
-}

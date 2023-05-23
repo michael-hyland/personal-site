@@ -1,0 +1,38 @@
+/* 
+|||||||||||||||||||||
+
+        HEADER 
+
+|||||||||||||||||||||
+*/
+
+.site-header {
+    background-color: var(--ink);
+}
+
+/* 
+|||||||||||||||||||||
+
+        HERO 
+
+|||||||||||||||||||||
+*/
+
+.hero-section__content .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* 
+|||||||||||||||||||||
+
+        FOOTER 
+
+|||||||||||||||||||||
+*/
+
+.site-footer {
+    background-color: var(--ink);
+}

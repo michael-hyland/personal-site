@@ -2,6 +2,7 @@
     html {
         --ink: #ece4d5;
         --paper: #242424;
+        background-color: var(--paper);
     }
 
     picture {
@@ -10,14 +11,10 @@
 
     /* TYPOGRAPHY */
     .wordmark :is(.title, .subtitle) {
-        color: var(--ink);
+        color: var(--gray);
     }
 
-    /* BUTTONS */
-    .primary-btn span {
-        color: var(--ink);
-    }
-
+    /* COMPONENTS */
     .link-list .link a {
         color: var(--ink);
     }

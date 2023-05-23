@@ -16,7 +16,5 @@
 
 * Need to build out the rest of the sections
 
-## Styling
 
-* Need to properly set up dark mode
 

@@ -1,26 +1,26 @@
 @media only screen and (min-width: 500px) {
-    .hero-section__content .text-content {
-        align-items: flex-start;
-    }
-
     .hero-section .text-content {
         gap: 50px;
     }
 }
 
 @media only screen and (min-width: 600px) {
+    /* SETTINGS */
+    html {
+        background-color: var(--paper);
+    }
+
     /* TYPOGRAPHY */
     .title, .subtitle {
         color: var(--ink);
     }
 
     /* HEADER */
-
     .site-header {
         background-color: var(--paper);
     }
 
-    hr, .site-header nav {
+    hr, .site-header .site-menu {
         display: block;
     }
 }
@@ -34,6 +34,40 @@
 
     /* TYPOGRAPHY */
     h1 {
-        font-size: 48px;
+        font-size: var(--font-size-7);
+    }
+
+    /* COMPONENTS */
+    .primary-btn {
+        font-size: var(--font-size-5);
+    }
+
+    .primary-btn span::after {
+        font-size: var(--font-size-6);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    /* MODULES */
+    .hero-section__content {
+        display: flex;
+    }
+
+
+    /* CARDS */
+    [class*="card-list"]{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: start;
+        gap: 150px;
+    }
+
+    [class$="card"] {
+        height: 100%;
+    }
+
+    [class$="card-description"] {
+        flex-grow: 1;
     }
 }

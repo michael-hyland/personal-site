@@ -36,14 +36,80 @@
                 "link": "mailto:hello@michaelhyland.dev"
             }
         },
-        "projects" : {
-
+        "projects": {
+            "id": "projects",
+            "projectList": [
+                {
+                    "title": "CPG Market Makers",
+                    "description": "Business card site for a CPG marketing company based in San Francisco.",
+                    "tags": [
+                        {
+                            "title": "eleventy",
+                            "link": "#"
+                        },
+                        {
+                            "title": "decap",
+                            "link": "#"
+                        },
+                        {
+                            "title": "Nunjucks",
+                            "link": "#"
+                        }
+                    ],
+                    "link": "#"
+                },
+                {
+                    "title": "Artemis Group",
+                    "description": "Brochure site for a collaboration-based bespoke fine furniture maker based in Seattle, WA.",
+                    "tags": [
+                        {
+                            "title": "HTML",
+                            "link": "#"
+                        },
+                        {
+                            "title": "CSS",
+                            "link": "#"
+                        }
+                    ],
+                    "link": "#"
+                },
+                {
+                    "title": "Northland Thrift",
+                    "description": "E-commerce site for a discount clothing retailer.",
+                    "tags": [
+                        {
+                            "title": "Shopify",
+                            "link": "#"
+                        },
+                        {
+                            "title": "Liquid",
+                            "link": "#"
+                        },
+                        {
+                            "title": "Migration",
+                            "link": "#"
+                        }
+                    ],
+                    "link": "#"
+                }
+            ]
         },
-        "blog": {
-
-        }
+        "blog": {}
     },
     "footer": {
-        
+        "siteMenu": [
+            {
+                "text": "GitHub",
+                "link": "#"
+            },
+            {
+                "text": "Dribbble",
+                "link": "#"
+            },
+            {
+                "text": "Twitter",
+                "link": "#"
+            }
+        ]
     }
 }
