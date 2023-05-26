@@ -16,11 +16,12 @@ html {
     /* COLORS */
     --ink: #242424;
     --paper: #ECE4D5;
-    --color: #CE4E25;
-    /* --gray: #88847D; */
 
-    --gray: #DD997D;
-    --dark-gray: #793925;
+    --accent: #CE4E25;
+    --light-accent: #DD997D;
+    --dark-accent: #793925;
+
+    --gray: #88847D;
 
     background-color: var(--ink);
 }

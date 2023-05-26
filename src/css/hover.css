@@ -1,12 +1,11 @@
 @media (hover: hover) and (pointer: fine) {
     h1 a:hover {
-        color: var(--color);
+        color: var(--accent);
         -webkit-text-stroke-width: 0px;
     }
 
     .primary-btn:hover {
-        background-size: 100% 2.5px;
-        color: var(--gray);
+        background-size: 100% 3.5px;
     }
 
     :is(.primary-btn, .secondary-btn):hover span::after {
@@ -14,7 +13,10 @@
     }
 
     .secondary-btn:hover {
-        background-size: 100% 2.5px;
-        color: var(--gray);
+        background-size: 100% 3px;
+    }
+
+    [class*="card"] .link:hover {
+        color: var(--accent);
     }
 }

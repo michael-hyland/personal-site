@@ -11,11 +11,11 @@
     background-color: transparent;
     padding: 0;
     font-size: var(--font-size-3);
-    color: var(--color);
+    color: var(--accent);
     font-weight: 500;
     letter-spacing: 0.03em;
 
-    background-image: linear-gradient(to right, var(--gray), var(--color));
+    background-image: linear-gradient(to right, var(--light-accent), var(--accent));
     background-position: left bottom 0px;
     background-repeat: no-repeat;
     padding-bottom: 4px;
@@ -48,10 +48,10 @@
     font-family: var(--roboto);
     font-size: var(--font-size-2);
     font-weight: 400;
-    color: var(--color);
+    color: var(--accent);
     letter-spacing: 0.02em;
 
-    background-image: linear-gradient(to right, var(--gray), var(--color));
+    background-image: linear-gradient(to right, var(--light-accent), var(--accent));
     background-position: left bottom 0px;
     background-repeat: no-repeat;
     padding-bottom: 4px;
@@ -91,22 +91,26 @@
     font-weight: 400;
     font-size: var(--font-size-1);
     letter-spacing: 0.02em;
-    color: var(--color);
+    color: var(--accent);
     text-transform: capitalize;
 }
 
 .divider {
-    color: var(--color);
+    color: var(--ink);
     font-family: var(--roboto);
     font-weight: 400;
 }
 
 .projects-section .divider {
-    color: var(--gray);
+    color: var(--ink);
+}
+
+.site-footer .link a {
+    color: var(--paper);
 }
 
 .site-footer .divider {
-    color: var(--ink);
+    color: var(--light-accent);
 }
 
 /* 
@@ -155,10 +159,6 @@
     color: var(--gray);
 }
 
-[class*="card"] .divider {
-    color: var(--gray);
-}
-
 /* 
 ||||||||||||||||||||||||||||||||||||
 
@@ -169,12 +169,13 @@
 
 hr {
     width: 100%;
-    height: 2.5px;
-    background: linear-gradient(to right, var(--gray), var(--color) 60%);
+    height: 10px;
+    background: linear-gradient(to right, var(--light-accent), var(--accent) 60%);
     /* background-color: pink; */
     border: none;
     margin-top: 15px;
     margin-bottom: 15px;
+    /* box-shadow: 1px 1px var(--dark-accent); */
 }
 
 /* 
@@ -200,4 +201,22 @@ hr {
 
 hr, .site-header .site-menu {
     display: none;
+}
+
+.logo {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.computer-logo {
+    max-width: 54px;
+}
+
+.computer-logo :is(.inner-case, .letter) {
+    fill: var(--accent);
+}
+
+.computer-logo :is(.outer-case, .screen) {
+    fill: var(--paper);
 }

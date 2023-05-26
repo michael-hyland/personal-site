@@ -15,8 +15,8 @@ body {
 }
 
 body *::selection {
-    background-color: var(--color);
-    color: var(--ink);
+    background-color: var(--accent);
+    color: var(--paper);
 }
 
 picture {

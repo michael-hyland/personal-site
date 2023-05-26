@@ -1,9 +1,12 @@
 {% set header = data.header %}   
 
 {% module "header", "site"%} 
-    <a href="{{ header.home.link }}" class="wordmark">
+    <a href="{{ header.home.link }}" class="logo">
+    {% include "components/logo.svg" %}
+    <div class="wordmark">
         <span class="title">{{ header.home.title }}</span>
         <span class="subtitle">{{ header.home.subtitle }}</span>
+    </div>
     </a>
 
     <hr>

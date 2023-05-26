@@ -1,0 +1,17 @@
+{% set blog = data.sections.blog %}
+
+{% module "section", blog.id %}
+<h2 class="section-title">Blog</h2>
+
+<hr>
+
+<ul class="blog-card-list">
+{% for blog in collections.blog %}
+    <li class="blog-card">
+        <h3 class="blog-card-title">{{ blog.data.title }}</h3>
+        <p class="blog-card-description">{{ blog.data.description }}</p>
+        {% button blog.url, "Read more", "secondary-btn" %}
+    </li>
+{% endfor %}
+</ul>
+{% endmodule %}
