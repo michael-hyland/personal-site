@@ -21,6 +21,14 @@ html {
     --light-accent: #DD997D;
     --dark-accent: #793925;
 
+    --purple-accent: #4E25CE;
+    --purple-light-accent: #9D85D2;
+    --purple-dark-accent: #392579;
+
+    --green-accent: #25CE4E;
+    --green-light-accent: #89D992;
+    --green-dark-accent: #257939;
+
     --gray: #88847D;
 
     background-color: var(--ink);

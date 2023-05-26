@@ -106,7 +106,7 @@ h1 {
 h1 a {
     color: var(--paper);
     display: inline-block;
-    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-width: 1.4px;
     -webkit-text-stroke-color: var(--accent);
     letter-spacing: 0.03em;
 }

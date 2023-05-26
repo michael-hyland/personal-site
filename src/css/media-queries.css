@@ -13,7 +13,7 @@
     /* TYPOGRAPHY */
     .title, .subtitle {
         color: var(--light-accent);
-        text-shadow: 1px 1px var(--dark-accent);
+        text-shadow: 1px 1px var(--accent);
     }
 
     /* HEADER */
@@ -30,7 +30,7 @@
     }
     
     .computer-logo :is(.outer-case, .screen) {
-        fill: var(--dark-accent);
+        fill: var(--accent);
     }
     
 }

@@ -1,9 +1,11 @@
 {% set blog = data.sections.blog %}
 
 {% module "section", blog.id %}
+<div class="section-header">
 <h2 class="section-title">Blog</h2>
-
 <hr>
+</div>
+
 
 <ul class="blog-card-list">
 {% for blog in collections.blog %}
