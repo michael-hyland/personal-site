@@ -10,8 +10,30 @@
 
     }
 
+    @keyframes blink {
+        20% {
+            color: cyan;
+        }
+
+        40% {
+            color: lime;
+        }
+
+        60% {
+            color: magenta;
+        }
+
+        80% {
+            color: gold;
+        }
+    }
+
+    :is(.primary-btn, .secondary-btn) {
+        animation: blink infinite 10s;
+    }
     :is(.primary-btn, .secondary-btn):hover {
         color: var(--green-light-accent);
+        animation: none;
     }
 
     :is(.title, .subtitle) {
