@@ -68,8 +68,8 @@
 
     [class$="card"] {
         background: none;
-        border: 1px dashed var(--green-light-accent);
-        box-shadow: 5px 5px var(--green-light-accent);
+        border: 1px dashed var(--purple-light-accent);
+        box-shadow: 5px 5px var(--purple-light-accent);
     }
 
 
