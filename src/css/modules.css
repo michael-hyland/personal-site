@@ -25,6 +25,10 @@
     gap: 30px;
 }
 
+section {
+    padding-bottom: 50px;
+}
+
 /* 
 |||||||||||||||||||||
 
@@ -35,4 +39,5 @@
 
 .site-footer {
     background-color: var(--accent);
+    padding-bottom: 50px;
 }
