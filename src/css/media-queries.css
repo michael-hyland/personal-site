@@ -69,13 +69,12 @@
     [class*="card-list"]{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-
+        grid-gap: 100px;
     }
 
     [class$="card"] {
         height: 100%;
-        max-width: 48ch;
+        /* max-width: 48ch; */
     }
 
     [class$="card-description"] {
