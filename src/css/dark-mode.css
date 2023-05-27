@@ -86,7 +86,7 @@
         top: 4px;
         left: 50%;
         transform: translateX(-50%);
-        border-radius: 7.5px;
+        border-radius: 5px;
     }
 
     [class*="card-title"] {
