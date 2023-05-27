@@ -21,7 +21,7 @@
         background-color: var(--paper);
     }
 
-    hr, .site-header .site-menu {
+    .site-header :is(hr, .site-menu) {
         display: block;
     }
 
@@ -68,13 +68,14 @@
     /* CARDS */
     [class*="card-list"]{
         display: grid;
-        grid-template-columns: repeat(2, auto);
-        justify-content: start;
-        gap: 150px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+
     }
 
     [class$="card"] {
         height: 100%;
+        max-width: 48ch;
     }
 
     [class$="card-description"] {

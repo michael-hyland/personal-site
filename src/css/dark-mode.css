@@ -1,43 +1,55 @@
 @media (prefers-color-scheme: dark) {
     html {
-        --ink: #ece4d5;
+        --ink: #ECE4D5;
         --paper: #242424;
+
+        --accent: var(--purple-light-accent);
+        --light-accent: var(--green-dark-accent);
+
         background-color: var(--paper);
+
     }
 
-    picture {
-        filter: brightness(85%);
+    :is(.primary-btn, .secondary-btn):hover {
+        color: var(--green-light-accent);
     }
 
-    /* TYPOGRAPHY */
-    .wordmark :is(.title, .subtitle) {
-        color: var(--gray);
+    :is(.title, .subtitle) {
+        text-shadow: none;
+        color: var(--green-light-accent);
     }
 
-    /* COMPONENTS */
-    .link-list .link a {
-        color: var(--ink);
-    }
-
-    .site-header .link-list a {
-        color: var(--color);
-    }
-
-    .site-menu .link-list .link a::before {
-        color: var(--ink);
-    }
-
-    .site-header .link-list .link a::before {
-        color: var(--color);
-    }
-
-    /* HEADER */
-    .site-header {
-        background-color: var(--paper);
+    .computer-logo :is(.inner-case, .letter) {
+        fill: var(--purple-accent);
     }
     
-    /* FOOTER */
-    .site-footer {
-        background-color: var(--color);
+    .computer-logo :is(.outer-case, .screen) {
+        fill: var(--green-light-accent);
     }
+
+    h1 a {
+        -webkit-text-stroke-color: var(--green-light-accent);
+    }
+
+    h1 a:hover {
+        -webkit-text-fill-color: var(--green-light-accent);
+    }
+
+    .link a:hover {
+        color: var(--green-light-accent);
+    }
+
+    .section-title {
+        text-shadow: none;
+        color: var(--green-light-accent);
+    }
+
+    [class$="card"] {
+        background: none;
+        border: 1px dashed var(--green-light-accent);
+        box-shadow: 5px 5px var(--green-light-accent);
+    }
+
+
+    
 }
