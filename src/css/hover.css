@@ -13,7 +13,8 @@
     }
 
     .secondary-btn:hover {
-        background-size: 100% 3px;
+        background-size: 100% 4px;
+        color: var(--purple-accent);
     }
 
     [class*="card"] .link:hover {

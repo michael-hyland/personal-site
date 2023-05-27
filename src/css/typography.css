@@ -103,11 +103,12 @@ h1 {
 }
 
 h1 a {
-    color: var(--paper);
+    color: #f1ebe0;
     display: inline-block;
     -webkit-text-stroke-width: 1.4px;
     -webkit-text-stroke-color: var(--accent);
     letter-spacing: 0.03em;
+    font-weight: 900;
 }
 
 .section-title {
@@ -117,8 +118,8 @@ h1 a {
     font-size: var(--font-size-6);
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    color: var(--light-accent);
+    color: var(--dark-accent);
     font-style: italic;
     font-weight: 300;
-    text-shadow: 1px 1px var(--dark-accent);
+    /* text-shadow: 1px 1px var(--dark-accent); */
 }

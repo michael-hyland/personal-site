@@ -4,10 +4,14 @@
         --paper: #242424;
 
         --accent: var(--purple-light-accent);
-        --light-accent: var(--green-dark-accent);
+        --light-accent: var(--green-light-accent);
 
         background-color: var(--paper);
 
+    }
+
+    h1 a {
+        color: #333;
     }
 
     @keyframes blink {
@@ -97,4 +101,26 @@
     .site-header {
         background-color: var(--paper);
     }
+
+    .site-footer {
+        background: linear-gradient(
+            to right,
+            var(--green-light-accent),
+            var(--purple-light-accent) 80%
+        );
+    }
+
+    .site-footer .link a {
+        font-weight: 700;
+    }
+
+
+
+    hr {
+        background: linear-gradient(
+            to right,
+            var(--green-light-accent),
+            var(--purple-light-accent) 80%
+        )
+    };
 }
