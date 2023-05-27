@@ -70,8 +70,10 @@
         background: none;
         border: 1px dashed var(--purple-light-accent);
         box-shadow: 5px 5px var(--purple-light-accent);
+        background-color: #303030;
     }
 
-
-    
+    .site-header {
+        background-color: var(--paper);
+    }
 }
