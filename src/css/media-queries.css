@@ -37,9 +37,14 @@
 
 @media only screen and (min-width: 800px) {
     /* SETTINGS */
-    section > [class*="content"] {
-        padding-top: 100px;
-        padding-bottom: 100px;
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    [class*="card-list"] {
+        margin-top: 150px;
+        margin-bottom: 150px;
     }
 
     /* TYPOGRAPHY */
