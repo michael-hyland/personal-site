@@ -86,7 +86,7 @@
     gap: 10px;
 }
 
-[class*="link"] a {
+[class*="link"] :is(a, h4) {
     font-family: var(--roboto);
     font-weight: 400;
     font-size: var(--font-size-1);

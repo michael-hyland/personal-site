@@ -15,7 +15,7 @@
         <ul class="project-link-list">
         {% for tool in project.data.tools %}
             <li class="project-link">
-                {% button "#",  tool, "link" %}
+                <h4>{{ tool }}</h4>
             </li>
             {% if loop.last === false %}
             <span class="divider">/</span>
