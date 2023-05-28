@@ -3,15 +3,15 @@ backend:
     branch: main
 media_folder: "public/images/"
 public_folder: "/images"
-# collections:
-#     - name: "projects"
-#       label: "Projects"
-#       folder: "projects"
-#       create: true
-#       slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-#       fields:
-#           - { label: "Title", name: "title", widget: "string" }
-#           - { label: "Featured Image", name: "image", widget: "image" }
-#           - { label: "Image caption", name: "imageAlt", widget: "string" }
-#           - { label: "Body", name: "body", widget: "markdown" }
-#           - { label: "Tags", name: "tags", widget: "list", default: "projects" }
+collections:
+    - name: "blog"
+      label: "Blog"
+      folder: "/blog"
+      create: true
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+      fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Featured Image", name: "image", widget: "image" }
+          - { label: "Image caption", name: "imageAlt", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Tags", name: "tags", widget: "list", default: "projects" }
