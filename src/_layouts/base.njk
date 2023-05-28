@@ -19,17 +19,32 @@
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ head.favicon }}</text></svg>">
 
         <link rel="stylesheet" href="/css/style.css">
+
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
         {% include "modules/header.njk" %}
-        
+
         <main class="site-main">
             {{ content | safe }}
         </main>
 
         {% include "modules/footer.njk" %}
         <script src="script.js"></script>
+        <script>
+            if (window.netlifyIdentity) {
+                window
+                    .netlifyIdentity
+                    .on("init", user => {
+                        if (!user) {
+                            window
+                                .netlifyIdentity
+                                .on("login", () => {
+                                    document.location.href = "/admin/";
+                                });
+                        }
+                    });
+            }
+        </script>
     </body>
 </html>
-
-

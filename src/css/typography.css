@@ -73,7 +73,7 @@
     font-family: var(--lora);
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    color: var(--paper);
+    color: var(--dark-accent);
     font-size: var(--font-size-4);
     text-transform: capitalize;
     letter-spacing: 0.02em;
@@ -84,7 +84,7 @@
     font-weight: 500;
     font-family: var(--roboto);
     /* font-weight: 400; */
-    color: var(--paper);
+    color: var(--dark-accent);
     font-size: 16px;
     letter-spacing: 0.02em;
     font-style: italic;
@@ -96,7 +96,7 @@ h1 {
     font-size: var(--font-size-5);
     font-weight: 900;
     line-height: 1.2;
-    color: var(--ink);
+    color: var(--accent);
     letter-spacing: 0.02em;
     width: 100%;
     max-width: 30ch;

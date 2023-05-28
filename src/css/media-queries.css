@@ -10,27 +10,10 @@
         background-color: var(--paper);
     }
 
-    /* TYPOGRAPHY */
-    .title, .subtitle {
-        color: var(--light-accent);
-        text-shadow: 1px 1px var(--accent);
-    }
-
     /* HEADER */
-    .site-header {
-        background-color: var(--paper);
-    }
 
     .site-header :is(hr, .site-menu) {
         display: block;
-    }
-
-    .computer-logo :is(.inner-case, .letter) {
-        fill: var(--light-accent);
-    }
-    
-    .computer-logo :is(.outer-case, .screen) {
-        fill: var(--accent);
     }
     
 }

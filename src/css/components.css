@@ -92,7 +92,7 @@
     font-weight: 400;
     font-size: var(--font-size-1);
     letter-spacing: 0.02em;
-    color: var(--accent);
+    color: var(--purple-accent);
     text-transform: capitalize;
 }
 
@@ -183,7 +183,13 @@
 hr {
     width: 100%;
     height: 10px;
-    background: linear-gradient(to right, var(--dark-accent), var(--accent), var(--light-accent) 80%);
+    background: linear-gradient(
+        to right, 
+        var(--dark-accent), 
+        var(--accent), 
+        var(--purple-light-accent),
+        var(--purple-accent)
+        );
     border: none;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -227,11 +233,11 @@ hr {
 }
 
 .computer-logo :is(.inner-case, .letter) {
-    fill: var(--ink);
+    fill: var(--light-accent);
 }
 
 .computer-logo :is(.outer-case, .screen) {
-    fill: var(--paper);
+    fill: var(--dark-accent);
 }
 
 .section-header {
