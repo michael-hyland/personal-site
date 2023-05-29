@@ -3,7 +3,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/css/style.css");
     eleventyConfig.addPassthroughCopy("./src/fonts/");
     eleventyConfig.addPassthroughCopy("./src/images/");
-    eleventyConfig.addPassthroughCopy("./src/script.js");
+    eleventyConfig.addPassthroughCopy('./src/admin');
+
     
     // Short Codes
     eleventyConfig.addShortcode("button", function (link, text, className, external = false) {
