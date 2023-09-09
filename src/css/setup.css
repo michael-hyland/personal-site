@@ -24,7 +24,7 @@ picture {
     overflow: hidden;
 }
 
-picture img {
+:is(picture, p) img {
     display: block;
     height: auto;
     width: 100%;

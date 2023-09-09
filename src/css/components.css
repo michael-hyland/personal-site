@@ -92,7 +92,7 @@
     font-weight: 400;
     font-size: var(--font-size-1);
     letter-spacing: 0.02em;
-    color: var(--purple-accent);
+    color: var(--accent);
     text-transform: capitalize;
 }
 
@@ -160,7 +160,7 @@
     letter-spacing: 0.02em;
 }
 
-[class*="card-description"] {
+[class*="card-description"], p {
     font-family: var(--roboto);
     font-size: var(--font-size-2);
     font-weight: 300;

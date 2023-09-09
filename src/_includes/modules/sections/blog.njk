@@ -1,13 +1,11 @@
-
 {% module "section", "blog" %}
 <div class="section-header">
-<h2 class="section-title">Blog</h2>
-<hr>
+    <h2 class="section-title">Blog</h2>
+    <hr>
 </div>
 
-
 <ul class="blog-card-list">
-{% for blog in collections.blog %}
+{% for blog in collections.blog | reverse %}        
     <li class="blog-card">
         <h3 class="blog-card-title">{{ blog.data.title | title }}</h3>
         <p class="blog-card-description">{{ blog.data.description }}</p>

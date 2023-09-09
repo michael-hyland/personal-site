@@ -6,8 +6,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ head.title }}</title>
-        <meta property="og:title" content="{{ head.title }}"/>
+        <title>{{ title }}</title>
+        <meta property="og:title" content="{{ title }}"/>
 
         <meta name="description" content="{{ head.description }}">
         <meta property="og:description" content="{{ head.description }}"/>
@@ -30,21 +30,7 @@
         </main>
 
         {% include "modules/footer.njk" %}
-        
-        <script>
-            if (window.netlifyIdentity) {
-                window
-                    .netlifyIdentity
-                    .on("init", user => {
-                        if (!user) {
-                            window
-                                .netlifyIdentity
-                                .on("login", () => {
-                                    document.location.href = "/admin/";
-                                });
-                        }
-                    });
-            }
-        </script>
+
+        <script src="/script.js"></script>
     </body>
 </html>

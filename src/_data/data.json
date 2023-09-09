@@ -1,56 +1,56 @@
 {
-    "head": {
-        "title": "Michael Hyland | Web Development & Graphic Design",
-        "favicon": "✌️",
-        "description": "I'm a web developer and graphic designer that specializes in making custom Shopify and WordPress websites.",
-        "url": "https://michaelhyland.dev",
-        "image": "https://breadmasterlee.files.wordpress.com/2010/08/friedpc.jpg?w=474"
+  "head": {
+    "title": "Michael Hyland | Web Development & Graphic Design",
+    "favicon": "✌️",
+    "description": "I'm a web developer and graphic designer that specializes in making custom Shopify and WordPress websites.",
+    "url": "https://michaelhyland.dev",
+    "image": "https://breadmasterlee.files.wordpress.com/2010/08/friedpc.jpg?w=474"
+  },
+  "header": {
+    "home": {
+      "title": "Michael Hyland",
+      "subtitle": "Web Development + Graphic Design",
+      "link": "/"
     },
-    "header": {
-        "home": {
-            "title": "Michael Hyland",
-            "subtitle": "Web Development + Graphic Design",
-            "link": "/"
-        },
-        "siteMenu": [
-            {
-                "text": "Projects",
-                "link": "#"
-            },
-            {
-                "text": "Blog",
-                "link": "#"
-            },
-            {
-                "text": "Contact",
-                "link": "#"
-            }
-        ]
-    },
-    "sections": {
-        "hero": {
-            "id": "hero",
-            "text": "I make super awesome websites with <a href='#'>Shopify</a> and <a href='#'>WordPress</a>. Sometimes I <a href='#'>write</a> about it.",
-            "button": {
-                "text": "Let's get to work",
-                "link": "mailto:hello@michaelhyland.dev"
-            }
-        }
-    },
-    "footer": {
-        "siteMenu": [
-            {
-                "text": "GitHub",
-                "link": "#"
-            },
-            {
-                "text": "Dribbble",
-                "link": "#"
-            },
-            {
-                "text": "Twitter",
-                "link": "#"
-            }
-        ]
+    "siteMenu": [
+      {
+        "text": "Projects",
+        "link": "#"
+      },
+      {
+        "text": "Blog",
+        "link": "#"
+      },
+      {
+        "text": "Contact",
+        "link": "#"
+      }
+    ]
+  },
+  "sections": {
+    "hero": {
+      "id": "hero",
+      "text": "I make super awesome websites with <a href='#'>Shopify</a> and <a href='#'>WordPress</a>. Sometimes I <a href='#'>write</a> about it.",
+      "button": {
+        "text": "Let's get to work",
+        "link": "mailto:hello@michaelhyland.dev"
+      }
     }
+  },
+  "footer": {
+    "siteMenu": [
+      {
+        "text": "GitHub",
+        "link": "#"
+      },
+      {
+        "text": "Dribbble",
+        "link": "#"
+      },
+      {
+        "text": "Twitter",
+        "link": "#"
+      }
+    ]
+  }
 }

@@ -6,7 +6,7 @@
 </div>
 
 <ul class="project-card-list">
-    {% for project in collections.projects %}
+    {% for project in collections.projects | reverse %}
     <li class="project-card">
         <h3 class="project-card-title">{{ project.data.title }}</h3>
 

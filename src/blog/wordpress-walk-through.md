@@ -5,10 +5,11 @@ imageAlt: Placeholder image
 tags:
   - wordpress
   - blog
+
 ---
 # First Blog post written in eleventy
 
-## T﻿his is heading 2
+## This is heading 2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque volutpat ac tincidunt vitae semper quis. Fermentum et sollicitudin ac orci phasellus. Turpis egestas pretium aenean pharetra magna ac placerat. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Nunc consequat interdum varius sit. Sapien nec sagittis aliquam malesuada bibendum. Imperdiet dui accumsan sit amet nulla. Suscipit tellus mauris a diam. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Purus sit amet luctus venenatis lectus. Nunc sed blandit libero volutpat sed cras ornare arcu.
 

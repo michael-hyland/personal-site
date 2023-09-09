@@ -3,9 +3,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/css/style.css");
     eleventyConfig.addPassthroughCopy("./src/fonts/");
     eleventyConfig.addPassthroughCopy("./src/images/");
-    eleventyConfig.addPassthroughCopy('./src/admin');
+    eleventyConfig.addPassthroughCopy("./src/admin");
+    eleventyConfig.addPassthroughCopy("./src/script.js"); 
 
-    
     // Short Codes
     eleventyConfig.addShortcode("button", function (link, text, className, external = false) {
         let target = "";
@@ -29,6 +29,18 @@ module.exports = function (eleventyConfig) {
     // Watch Target
     eleventyConfig.addWatchTarget("./src/css/");
 
+    // Markdown Filter
+    const md = require("markdown-it")({
+        html: false,
+        breaks: true,
+        linkify: true,
+      });
+    
+      eleventyConfig.addNunjucksFilter("markdownify", (markdownString) =>
+        md.render(markdownString)
+      );
+    
+
     return {
         dir: {
             input: "src",
@@ -37,4 +49,3 @@ module.exports = function (eleventyConfig) {
         },
     };
 };
-

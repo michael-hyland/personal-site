@@ -1,15 +1,15 @@
-{% set links = data.footer.siteMenu %}
-
 {% module "footer", "site" %}
     <nav class="site-menu">
         <ul class="link-list">
-        {% for link in links %}
+        {% for link in footer.links %}
             <li class="link">
-                <a href="{{link.link}}">{{ link.text }}</a>
+                <a href="{{link.url}}" target="_blank">{{ link.text }}</a>
             </li>
 
             {% if loop.last === false %}
+            <li>
                 <span class="divider">/</span>
+            </li>
             {% endif %}
         {% endfor %}
         </ul>

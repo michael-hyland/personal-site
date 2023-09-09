@@ -1,11 +1,9 @@
-{% set header = data.header %}   
-
 {% module "header", "site"%} 
-    <a href="{{ header.home.link }}" class="logo">
+    <a href="/" class="logo">
     {% include "components/logo.svg" %}
     <div class="wordmark">
-        <span class="title">{{ header.home.title }}</span>
-        <span class="subtitle">{{ header.home.subtitle }}</span>
+        <span class="title">{{ header.title }}</span>
+        <span class="subtitle">{{ header.subtitle }}</span>
     </div>
     </a>
 
@@ -13,9 +11,9 @@
 
     <nav class="site-menu"> 
         <ul class="link-list">  
-        {% for link in header.siteMenu %}
+        {% for link in header.links %}
             <li class="link">
-                <a href="{{ link.link }}">{{ link.text }}</a>
+                <a href="{{ link.url }}">{{ link.text }}</a>
             </li>
             {% if loop.last === false %}
                 <span class="divider">/</span>
