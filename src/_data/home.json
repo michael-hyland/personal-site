@@ -1,9 +1,0 @@
-{
-  "title": "IS it working?",
-  "jumboText": "C﻿mon!!!!!",
-  "link": {
-    "text": "Ya gonna hire me?",
-    "url": "hello@blogoogogo.com"
-  },
-  "layout": "base.njk"
-}
