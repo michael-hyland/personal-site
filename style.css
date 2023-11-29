@@ -1733,3 +1733,19 @@ h1 a {
 
 }
 
+
+pre {
+    /* white-space: pre-wrap;  */
+    overflow: scroll;
+}
+
+pre::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0px;
+  }
+  
+pre::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(39, 39, 230, 0.2);
+    /* box-shadow: 0 0 1px rgb(39, 39, 230); */
+  }
