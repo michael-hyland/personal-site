@@ -1751,7 +1751,7 @@ pre::-webkit-scrollbar-thumb {
     /* box-shadow: 0 0 1px rgb(39, 39, 230); */
   }
 
-.home-btn a:hover {
+h1 a:hover {
     color: transparent;
     text-shadow: 0px 0px 30px deeppink;
     transition: 0.2s ease-in;
